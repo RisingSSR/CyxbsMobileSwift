@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1468F195292496A00080DA08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F194292496A00080DA08 /* AppDelegate.swift */; };
-		1468F197292496A00080DA08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F196292496A00080DA08 /* SceneDelegate.swift */; };
-		1468F199292496A00080DA08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F198292496A00080DA08 /* ViewController.swift */; };
-		1468F19C292496A00080DA08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1468F19A292496A00080DA08 /* Main.storyboard */; };
+		1468F199292496A00080DA08 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F198292496A00080DA08 /* ScheduleViewController.swift */; };
 		1468F19E292496A10080DA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1468F19D292496A10080DA08 /* Assets.xcassets */; };
 		1468F1A1292496A10080DA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1468F19F292496A10080DA08 /* LaunchScreen.storyboard */; };
 		1468F1AC292496A10080DA08 /* CyxbsMobileSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1AB292496A10080DA08 /* CyxbsMobileSwiftTests.swift */; };
 		1468F1B6292496A10080DA08 /* CyxbsMobileSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1B5292496A10080DA08 /* CyxbsMobileSwiftUITests.swift */; };
 		1468F1B8292496A10080DA08 /* CyxbsMobileSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1B7292496A10080DA08 /* CyxbsMobileSwiftUITestsLaunchTests.swift */; };
+		1468F1C52924976A0080DA08 /* RyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1C42924976A0080DA08 /* RyTabBarController.swift */; };
+		1468F1C72924BB970080DA08 /* ScheduleCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1C62924BB970080DA08 /* ScheduleCourse.swift */; };
+		14F80BE12925D92D00481F4B /* ScheduleCombineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F80BE02925D92D00481F4B /* ScheduleCombineModel.swift */; };
+		9754CAD7080F5864E525D76F /* Pods_CyxbsMobileSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D18BCD4699CFAED4AE5A37 /* Pods_CyxbsMobileSwift.framework */; };
+		C48D963D855DC393031078ED /* Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BD2514E13C2CF16285DEB4 /* Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework */; };
+		DD85E943E7881285316DBD8D /* Pods_CyxbsMobileSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93A5A1721CF516C7FBFF8B2 /* Pods_CyxbsMobileSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +42,7 @@
 /* Begin PBXFileReference section */
 		1468F191292496A00080DA08 /* CyxbsMobileSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyxbsMobileSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1468F194292496A00080DA08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1468F196292496A00080DA08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1468F198292496A00080DA08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1468F19B292496A00080DA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1468F198292496A00080DA08 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		1468F19D292496A10080DA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1468F1A0292496A10080DA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1468F1A2292496A10080DA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,18 @@
 		1468F1B1292496A10080DA08 /* CyxbsMobileSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyxbsMobileSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1468F1B5292496A10080DA08 /* CyxbsMobileSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyxbsMobileSwiftUITests.swift; sourceTree = "<group>"; };
 		1468F1B7292496A10080DA08 /* CyxbsMobileSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyxbsMobileSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1468F1C42924976A0080DA08 /* RyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyTabBarController.swift; sourceTree = "<group>"; };
+		1468F1C62924BB970080DA08 /* ScheduleCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCourse.swift; sourceTree = "<group>"; };
+		14F80BE02925D92D00481F4B /* ScheduleCombineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCombineModel.swift; sourceTree = "<group>"; };
+		27A55D6AF757F14FA38B5ABE /* Pods-CyxbsMobileSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwiftTests/Pods-CyxbsMobileSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FA93E33BB59B9A10DA16002 /* Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FC8C620EE32A559FDE13EFD /* Pods-CyxbsMobileSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwiftTests/Pods-CyxbsMobileSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84D18BCD4699CFAED4AE5A37 /* Pods_CyxbsMobileSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyxbsMobileSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4BAD40F555673F00DBBD66 /* Pods-CyxbsMobileSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwift.release.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwift/Pods-CyxbsMobileSwift.release.xcconfig"; sourceTree = "<group>"; };
+		A93A5A1721CF516C7FBFF8B2 /* Pods_CyxbsMobileSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyxbsMobileSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BD2514E13C2CF16285DEB4 /* Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BE3839F6502CBEDBEE2978 /* Pods-CyxbsMobileSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwift.debug.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwift/Pods-CyxbsMobileSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E7F03CD158BF33CD0BD050 /* Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9754CAD7080F5864E525D76F /* Pods_CyxbsMobileSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD85E943E7881285316DBD8D /* Pods_CyxbsMobileSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48D963D855DC393031078ED /* Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056B65229CFFA31B495A3CC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D18BCD4699CFAED4AE5A37 /* Pods_CyxbsMobileSwift.framework */,
+				B2BD2514E13C2CF16285DEB4 /* Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework */,
+				A93A5A1721CF516C7FBFF8B2 /* Pods_CyxbsMobileSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1468F188292496A00080DA08 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				1468F1AA292496A10080DA08 /* CyxbsMobileSwiftTests */,
 				1468F1B4292496A10080DA08 /* CyxbsMobileSwiftUITests */,
 				1468F192292496A00080DA08 /* Products */,
+				490729090927884D8EF51FE2 /* Pods */,
+				056B65229CFFA31B495A3CC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				1468F194292496A00080DA08 /* AppDelegate.swift */,
-				1468F196292496A00080DA08 /* SceneDelegate.swift */,
-				1468F198292496A00080DA08 /* ViewController.swift */,
-				1468F19A292496A00080DA08 /* Main.storyboard */,
+				1468F1C42924976A0080DA08 /* RyTabBarController.swift */,
+				1468F198292496A00080DA08 /* ScheduleViewController.swift */,
+				14F80BE02925D92D00481F4B /* ScheduleCombineModel.swift */,
+				1468F1C62924BB970080DA08 /* ScheduleCourse.swift */,
 				1468F19D292496A10080DA08 /* Assets.xcassets */,
 				1468F19F292496A10080DA08 /* LaunchScreen.storyboard */,
 				1468F1A2292496A10080DA08 /* Info.plist */,
@@ -127,6 +157,19 @@
 			path = CyxbsMobileSwiftUITests;
 			sourceTree = "<group>";
 		};
+		490729090927884D8EF51FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE3839F6502CBEDBEE2978 /* Pods-CyxbsMobileSwift.debug.xcconfig */,
+				8A4BAD40F555673F00DBBD66 /* Pods-CyxbsMobileSwift.release.xcconfig */,
+				E4E7F03CD158BF33CD0BD050 /* Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.debug.xcconfig */,
+				2FA93E33BB59B9A10DA16002 /* Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig */,
+				2FC8C620EE32A559FDE13EFD /* Pods-CyxbsMobileSwiftTests.debug.xcconfig */,
+				27A55D6AF757F14FA38B5ABE /* Pods-CyxbsMobileSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1468F1BB292496A10080DA08 /* Build configuration list for PBXNativeTarget "CyxbsMobileSwift" */;
 			buildPhases = (
+				1D4F96D07463E4CD7CFA80E1 /* [CP] Check Pods Manifest.lock */,
 				1468F18D292496A00080DA08 /* Sources */,
 				1468F18E292496A00080DA08 /* Frameworks */,
 				1468F18F292496A00080DA08 /* Resources */,
+				75FDAA196CDC00A8929F364C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1468F1BE292496A10080DA08 /* Build configuration list for PBXNativeTarget "CyxbsMobileSwiftTests" */;
 			buildPhases = (
+				A056AF002656A64390C488DF /* [CP] Check Pods Manifest.lock */,
 				1468F1A3292496A10080DA08 /* Sources */,
 				1468F1A4292496A10080DA08 /* Frameworks */,
 				1468F1A5292496A10080DA08 /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1468F1C1292496A10080DA08 /* Build configuration list for PBXNativeTarget "CyxbsMobileSwiftUITests" */;
 			buildPhases = (
+				4FFCF16DC3E164E7EAC40B31 /* [CP] Check Pods Manifest.lock */,
 				1468F1AD292496A10080DA08 /* Sources */,
 				1468F1AE292496A10080DA08 /* Frameworks */,
 				1468F1AF292496A10080DA08 /* Resources */,
+				CF12183F3D5A30043CFA6613 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +255,7 @@
 				};
 			};
 			buildConfigurationList = 1468F18C292496A00080DA08 /* Build configuration list for PBXProject "CyxbsMobileSwift" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,7 +281,6 @@
 			files = (
 				1468F1A1292496A10080DA08 /* LaunchScreen.storyboard in Resources */,
 				1468F19E292496A10080DA08 /* Assets.xcassets in Resources */,
-				1468F19C292496A00080DA08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +300,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D4F96D07463E4CD7CFA80E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyxbsMobileSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFCF16DC3E164E7EAC40B31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75FDAA196CDC00A8929F364C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobileSwift/Pods-CyxbsMobileSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A056AF002656A64390C488DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyxbsMobileSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF12183F3D5A30043CFA6613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1468F18D292496A00080DA08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1468F199292496A00080DA08 /* ViewController.swift in Sources */,
+				1468F1C52924976A0080DA08 /* RyTabBarController.swift in Sources */,
+				1468F1C72924BB970080DA08 /* ScheduleCourse.swift in Sources */,
+				14F80BE12925D92D00481F4B /* ScheduleCombineModel.swift in Sources */,
+				1468F199292496A00080DA08 /* ScheduleViewController.swift in Sources */,
 				1468F195292496A00080DA08 /* AppDelegate.swift in Sources */,
-				1468F197292496A00080DA08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1468F19A292496A00080DA08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1468F19B292496A00080DA08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1468F19F292496A10080DA08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +572,7 @@
 		};
 		1468F1BC292496A10080DA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BE3839F6502CBEDBEE2978 /* Pods-CyxbsMobileSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,15 +583,15 @@
 				INFOPLIST_FILE = CyxbsMobileSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SSR.CyxbsMobileSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mredrock.cyxbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,6 +601,7 @@
 		};
 		1468F1BD292496A10080DA08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A4BAD40F555673F00DBBD66 /* Pods-CyxbsMobileSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,15 +612,15 @@
 				INFOPLIST_FILE = CyxbsMobileSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SSR.CyxbsMobileSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mredrock.cyxbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +630,7 @@
 		};
 		1468F1BF292496A10080DA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC8C620EE32A559FDE13EFD /* Pods-CyxbsMobileSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +651,7 @@
 		};
 		1468F1C0292496A10080DA08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A55D6AF757F14FA38B5ABE /* Pods-CyxbsMobileSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +672,7 @@
 		};
 		1468F1C2292496A10080DA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E7F03CD158BF33CD0BD050 /* Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +691,7 @@
 		};
 		1468F1C3292496A10080DA08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA93E33BB59B9A10DA16002 /* Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
