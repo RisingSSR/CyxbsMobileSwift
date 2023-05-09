@@ -1,5 +1,5 @@
 //
-//  ScheduleCourse.swift
+//  RyCurriculum.swift
 //  CyxbsMobileSwift
 //
 //  Created by SSR on 2022/11/16.
@@ -8,9 +8,9 @@
 import Foundation
 import WCDBSwift
 
-// MARK: ScheduleCourse
+// MARK: RyCurriculum
 
-struct ScheduleCourse {
+struct RyCurriculum {
     
     // MARK: - Properties
     var inWeek = 0
@@ -18,18 +18,13 @@ struct ScheduleCourse {
     var period = Range<Int>(uncheckedBounds: (0, 0))
 
     var course = String()
-    var courseNike: String?
     var classRoom = String()
-    var classRoomNike: String?
 
     var courseID: String?
     var rawWeek: String?
     var type = String()
     var teacher: String?
     var lesson: String?
-
-    var sno: String?
-    var requestType = RequestType.custom
 
     // MARK: RequestType
     public enum RequestType: String, Codable {
@@ -41,7 +36,7 @@ struct ScheduleCourse {
 
 // MARK: extension Init
 
-extension ScheduleCourse {
+extension RyCurriculum {
     init(dictionary dic: Dictionary<String, Any>) throws {
         inWeek = dic["hash_day"] as! Int
         inSections = Set(dic["week"] as! Array)
@@ -62,26 +57,21 @@ extension ScheduleCourse {
 
 // MARK: extension WCDB
 
-extension ScheduleCourse: TableCodable {
+extension RyCurriculum: TableCodable {
     enum CodingKeys: String, CodingTableKey {
-        typealias Root = ScheduleCourse
+        typealias Root = RyCurriculum
         static let objectRelationalMapping = TableBinding(CodingKeys.self)
         case inWeek
         case inSections
         case period
 
         case course
-        case courseNike
         case classRoom
-        case classRoomNike
 
         case courseID
         case rawWeek
         case type
         case teacher
         case lesson
-
-        case sno
-        case requestType
     }
 }

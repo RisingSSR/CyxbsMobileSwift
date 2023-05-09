@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1468F195292496A00080DA08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F194292496A00080DA08 /* AppDelegate.swift */; };
-		1468F199292496A00080DA08 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F198292496A00080DA08 /* ScheduleViewController.swift */; };
+		1468F199292496A00080DA08 /* RyCurriculumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F198292496A00080DA08 /* RyCurriculumViewController.swift */; };
 		1468F19E292496A10080DA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1468F19D292496A10080DA08 /* Assets.xcassets */; };
 		1468F1A1292496A10080DA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1468F19F292496A10080DA08 /* LaunchScreen.storyboard */; };
 		1468F1AC292496A10080DA08 /* CyxbsMobileSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1AB292496A10080DA08 /* CyxbsMobileSwiftTests.swift */; };
 		1468F1B6292496A10080DA08 /* CyxbsMobileSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1B5292496A10080DA08 /* CyxbsMobileSwiftUITests.swift */; };
 		1468F1B8292496A10080DA08 /* CyxbsMobileSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1B7292496A10080DA08 /* CyxbsMobileSwiftUITestsLaunchTests.swift */; };
-		1468F1C52924976A0080DA08 /* RyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1C42924976A0080DA08 /* RyTabBarController.swift */; };
-		1468F1C72924BB970080DA08 /* ScheduleCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1C62924BB970080DA08 /* ScheduleCourse.swift */; };
-		14F80BE12925D92D00481F4B /* ScheduleCombineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F80BE02925D92D00481F4B /* ScheduleCombineModel.swift */; };
+		1468F1C52924976A0080DA08 /* RyCurriculumTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1C42924976A0080DA08 /* RyCurriculumTabBarController.swift */; };
+		1468F1C72924BB970080DA08 /* RyCurriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468F1C62924BB970080DA08 /* RyCurriculum.swift */; };
+		147188452A0904DB006AAB53 /* RyCurriculumTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147188442A0904DB006AAB53 /* RyCurriculumTabBar.swift */; };
 		9754CAD7080F5864E525D76F /* Pods_CyxbsMobileSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D18BCD4699CFAED4AE5A37 /* Pods_CyxbsMobileSwift.framework */; };
 		C48D963D855DC393031078ED /* Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BD2514E13C2CF16285DEB4 /* Pods_CyxbsMobileSwift_CyxbsMobileSwiftUITests.framework */; };
 		DD85E943E7881285316DBD8D /* Pods_CyxbsMobileSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93A5A1721CF516C7FBFF8B2 /* Pods_CyxbsMobileSwiftTests.framework */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		1468F191292496A00080DA08 /* CyxbsMobileSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyxbsMobileSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1468F194292496A00080DA08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1468F198292496A00080DA08 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		1468F198292496A00080DA08 /* RyCurriculumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyCurriculumViewController.swift; sourceTree = "<group>"; };
 		1468F19D292496A10080DA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1468F1A0292496A10080DA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1468F1A2292496A10080DA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		1468F1B1292496A10080DA08 /* CyxbsMobileSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyxbsMobileSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1468F1B5292496A10080DA08 /* CyxbsMobileSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyxbsMobileSwiftUITests.swift; sourceTree = "<group>"; };
 		1468F1B7292496A10080DA08 /* CyxbsMobileSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyxbsMobileSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1468F1C42924976A0080DA08 /* RyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyTabBarController.swift; sourceTree = "<group>"; };
-		1468F1C62924BB970080DA08 /* ScheduleCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCourse.swift; sourceTree = "<group>"; };
-		14F80BE02925D92D00481F4B /* ScheduleCombineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCombineModel.swift; sourceTree = "<group>"; };
+		1468F1C42924976A0080DA08 /* RyCurriculumTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyCurriculumTabBarController.swift; sourceTree = "<group>"; };
+		1468F1C62924BB970080DA08 /* RyCurriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyCurriculum.swift; sourceTree = "<group>"; };
+		147188442A0904DB006AAB53 /* RyCurriculumTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyCurriculumTabBar.swift; sourceTree = "<group>"; };
 		27A55D6AF757F14FA38B5ABE /* Pods-CyxbsMobileSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwiftTests/Pods-CyxbsMobileSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		2FA93E33BB59B9A10DA16002 /* Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests/Pods-CyxbsMobileSwift-CyxbsMobileSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2FC8C620EE32A559FDE13EFD /* Pods-CyxbsMobileSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyxbsMobileSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-CyxbsMobileSwiftTests/Pods-CyxbsMobileSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,10 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				1468F194292496A00080DA08 /* AppDelegate.swift */,
-				1468F1C42924976A0080DA08 /* RyTabBarController.swift */,
-				1468F198292496A00080DA08 /* ScheduleViewController.swift */,
-				14F80BE02925D92D00481F4B /* ScheduleCombineModel.swift */,
-				1468F1C62924BB970080DA08 /* ScheduleCourse.swift */,
+				1468F1C42924976A0080DA08 /* RyCurriculumTabBarController.swift */,
+				147188442A0904DB006AAB53 /* RyCurriculumTabBar.swift */,
+				1468F198292496A00080DA08 /* RyCurriculumViewController.swift */,
+				1468F1C62924BB970080DA08 /* RyCurriculum.swift */,
 				1468F19D292496A10080DA08 /* Assets.xcassets */,
 				1468F19F292496A10080DA08 /* LaunchScreen.storyboard */,
 				1468F1A2292496A10080DA08 /* Info.plist */,
@@ -404,11 +404,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1468F1C52924976A0080DA08 /* RyTabBarController.swift in Sources */,
-				1468F1C72924BB970080DA08 /* ScheduleCourse.swift in Sources */,
-				14F80BE12925D92D00481F4B /* ScheduleCombineModel.swift in Sources */,
-				1468F199292496A00080DA08 /* ScheduleViewController.swift in Sources */,
+				1468F1C52924976A0080DA08 /* RyCurriculumTabBarController.swift in Sources */,
+				1468F1C72924BB970080DA08 /* RyCurriculum.swift in Sources */,
+				1468F199292496A00080DA08 /* RyCurriculumViewController.swift in Sources */,
 				1468F195292496A00080DA08 /* AppDelegate.swift in Sources */,
+				147188452A0904DB006AAB53 /* RyCurriculumTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,15 +576,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 727CVV9PLJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CyxbsMobileSwift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "掌上重邮Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -605,15 +610,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 727CVV9PLJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CyxbsMobileSwift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "掌上重邮Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

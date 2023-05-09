@@ -1,7 +1,5 @@
 PODS:
   - Alamofire (5.6.2)
-  - CocoaMarkdown (1.2.7)
-  - FluentDarkModeKit (1.0.4)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -30,27 +28,19 @@ PODS:
     - SQLiteRepairKit (~> 1.2.0)
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - WCDBOptimizedSQLCipher (1.2.1)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - Alamofire
-  - CocoaMarkdown
-  - FluentDarkModeKit
   - RxCocoa
   - RxSwift
   - SnapKit
   - SwiftyJSON
   - SwiftySwift
   - WCDB.swift
-  - YYKit
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Alamofire
-    - CocoaMarkdown
-    - FluentDarkModeKit
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -60,12 +50,9 @@ SPEC REPOS:
     - SwiftySwift
     - WCDB.swift
     - WCDBOptimizedSQLCipher
-    - YYKit
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  CocoaMarkdown: c0c4707fd46ee03d5b662a3cd93560f0fe2b79b6
-  FluentDarkModeKit: b6317653a00329564582884772ec57c4eaad1a1f
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
@@ -75,8 +62,7 @@ SPEC CHECKSUMS:
   SwiftySwift: dfb02560bec08882d6daff3603d9e5738af92ab3
   WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: b7a369d2c3f1f91b4a78189aed6607a73eb67d82
+PODFILE CHECKSUM: 6274d7220b51c6b8beb8ca1b49010fa067215ae0
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
