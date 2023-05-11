@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     lazy var window: UIWindow? = {
         let window = UIWindow()
-        window.rootViewController = RyCurriculumTabBarController()
+        window.rootViewController = RyScheduleTabBarController()
         return window
     }()
 
